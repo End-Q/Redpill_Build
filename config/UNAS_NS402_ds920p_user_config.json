@@ -2,9 +2,9 @@
   "extra_cmdline": {
     "pid": "0x5567",
     "vid": "0x0781",
-    "sn": "2040SBRD42CP2",
-    "mac1": "001132CABFFF",
-    "mac2": "001132CAC000",
+    "sn": "2140SBRF5RKQB",
+    "mac1": "001132F3C65F",
+    "mac2": "001132F3C660",
     "mac3": "001132CAC001",
     "mac4": "001132CAC002",
     "netif_num": 4
