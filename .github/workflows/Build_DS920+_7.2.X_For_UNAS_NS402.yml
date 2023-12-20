@@ -75,9 +75,9 @@ jobs:
           git clone -b develop https://github.com/jumkey/redpill-load.git /home/runner/redpill-load
           pushd /home/runner/redpill-load
           # make config
-          pip install -r requirements.txt
-          python syno.py ${{matrix.platform}} ${{steps.version.outputs.maxVersion}} 1
-          cat config/${{matrix.platform}}/${{steps.version.outputs.maxVersion}}/config.json
+          # pip install -r requirements.txt
+          # python syno.py ${{matrix.platform}} ${{steps.version.outputs.maxVersion}} 1
+          # cat config/${{matrix.platform}}/${{steps.version.outputs.maxVersion}}/config.json
           popd
           
           cp -f type.sh /home/runner/redpill-load
